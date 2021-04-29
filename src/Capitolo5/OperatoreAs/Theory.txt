@@ -1,0 +1,7 @@
+Operatore "as"
+Tipo t = obj as Tipo; 
+Quindi converte obj in Tipo se possibile, altrimenti restituisce un riferimento null.           
+
+Mentre, con operatore "is"
+if (obj is Tipo)
+    Tipo t = (Tipo)obj;
